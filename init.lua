@@ -2,7 +2,7 @@
 
 
 --extra stuff
-local fuel_max = 36000
+local fuel_max = 3600
 
 local function formspec_active (percent)
 	local formspec = 
@@ -82,7 +82,7 @@ minetest.register_craftitem("pebblebed:uranium_carbide_dust", {
 	inventory_image = "uranium_carbide.png",
 })
 
-minetest.register_craftitem("pebblebed:pebble_fuel", {
+minetest.register_craftitem("pebblebed:pebble_fuel 10", {
 	description = "Pebblebed Fuel Pellet",
 	inventory_image = "pebblebed_fuel.png",
 })
