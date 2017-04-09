@@ -82,7 +82,7 @@ minetest.register_craftitem("pebblebed:uranium_carbide_dust", {
 	inventory_image = "uranium_carbide.png",
 })
 
-minetest.register_craftitem("pebblebed:pebble_fuel 10", {
+minetest.register_craftitem("pebblebed:pebble_fuel", {
 	description = "Pebblebed Fuel Pellet",
 	inventory_image = "pebblebed_fuel.png",
 })
@@ -95,7 +95,7 @@ technic.register_alloy_recipe({
     time = 6
   })
 
-technic.register_compressor_recipe({input = {"pebblebed:uranium_carbide_dust"}, output = "pebblebed:pebble_fuel"})
+technic.register_compressor_recipe({input = {"pebblebed:uranium_carbide_dust"}, output = "pebblebed:pebble_fuel 10"})
 
 minetest.register_craft({
 	output = 'pebblebed:reactor',
