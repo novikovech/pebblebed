@@ -10,8 +10,11 @@ Digging an active reactor will not drop anything, wait for it to finish before m
 Bug: digging the reactor restroys the fuel inside, I'll fix that when I can be bothered, in the mean time make sure to remove fuel from the reactor before digging it. (That shouldn't be an issue, since having fuel means it's active, and you shouldn't be digging active reactors.)
 
 Construction recipe:
+
 {'stainless_steel_ingot', 'stainless_steel_ingot'   , 'stainless_steel_ingot'}
+
 {'stainless_steel_ingot', ''                        , 'stainless_steel_ingot'}
+
 {'stainless_steel_ingot', 'blast_resistant_concrete', 'stainless_steel_ingot'}
 
   
