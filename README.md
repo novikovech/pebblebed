@@ -9,12 +9,11 @@ Digging an active reactor will not drop anything, wait for it to finish before m
 
 Bug: digging the reactor restroys the fuel inside, I'll fix that when I can be bothered, in the mean time make sure to remove fuel from the reactor before digging it. (That shouldn't be an issue, since having fuel means it's active, and you shouldn't be digging active reactors.)
 
-Construction:
-	recipe = {
-		{'technic:stainless_steel_ingot', 'technic:stainless_steel_ingot'   , 'technic:stainless_steel_ingot'},
-		{'technic:stainless_steel_ingot', ''                                , 'technic:stainless_steel_ingot'},
-		{'technic:stainless_steel_ingot', 'technic:blast_resistant_concrete', 'technic:stainless_steel_ingot'},
-	}
+Construction recipe:
+{'stainless_steel_ingot', 'stainless_steel_ingot'   , 'stainless_steel_ingot'}
+{'stainless_steel_ingot', ''                        , 'stainless_steel_ingot'}
+{'stainless_steel_ingot', 'blast_resistant_concrete', 'stainless_steel_ingot'}
+
   
 Fuel: 
 First alloy some 3.5% uranium dust with coal dust to get Uranium Carbide dust, then compress that to get 10 fuel pellets. Each pellet will fuel the reactor for an hour.
